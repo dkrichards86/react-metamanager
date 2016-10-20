@@ -7,7 +7,7 @@ export default class MetaManager extends Component {
      * Set the initial tags
      */
     componentWillMount() {
-        this.metaManager = metaManager(this.props.tags);
+        this.metaManager = new metaManager(this.props.tags);
     }
     
     /**
