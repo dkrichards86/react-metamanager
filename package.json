@@ -1,6 +1,6 @@
 {
   "name": "react-metamanager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React implemetation of MetaManager.",
   "main": "./dist/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/dkrichards86/react-metamanager",
   "dependencies": {
-    "meta-manager": "^1.0.1",
+    "meta-manager": "^1.0.0",
     "react": "^15.0.0"
   },
   "devDependencies": {
