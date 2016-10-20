@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/dkrichards86/react-metamanager",
   "dependencies": {
-    "meta-manager": "^1.0.0",
+    "meta-manager": "^1.0.1",
     "react": "^15.0.0"
   },
   "devDependencies": {
