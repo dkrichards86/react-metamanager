@@ -1,0 +1,43 @@
+{
+  "name": "react-metamanager",
+  "version": "1.0.0",
+  "description": "A React implemetation of MetaManager.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkrichards86/react-metamanager.git"
+  },
+  "keywords": [
+    "react",
+    "react-metamanager",
+    "meta-manager",
+    "component",
+    "document",
+    "head",
+    "base",
+    "link",
+    "meta",
+    "script",
+    "title"
+  ],
+  "author": "Keith Richards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkrichards86/react-metamanager/issues"
+  },
+  "homepage": "https://github.com/dkrichards86/react-metamanager",
+  "dependencies": {
+    "meta-manager": "^1.0.0",
+    "react": "^15.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
