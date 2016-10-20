@@ -1,4 +1,4 @@
-A React implementation of MetaManager.
+A React implementation of [MetaManager](https://github.com/dkrichards86/metamanager).
 
 ## Install
 
