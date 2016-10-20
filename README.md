@@ -1,16 +1,16 @@
-A higher order component for managing document head content
+A React implementation of MetaManager.
 
 ## Install
 
 ```
-npm i -S react-pagehead
+npm i -S react-metamanager
 ```
 
 ## Example
 
 ```js
 import React from 'react';
-import PageHead from 'react-pagehead';
+import MetaManager from 'react-metamanager';
 
 const METATAGS = {
     title: "My Page Title",
@@ -21,11 +21,9 @@ const METATAGS = {
 };
 
 
-class MyComponent extends React.Component {
+export default class MyComponent extends React.Component {
     render () {
-        ...
+        <MetaManager tags={METATAGS} />
     }
 }
-
-export default PageHead(MyComponent, METATAGS);
 ```
